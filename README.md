@@ -1,20 +1,25 @@
-# Prettify JSON
+# Парсер файлов JSON
 
-[TODO. There will be project description]
+Скрипт принимает на вход файл json и выводит его в удобочитаемом виде..
 
-# Quickstart
+# Как использовать
 
-[TODO]
 
-Example of script launch on Linux, Python 3.5:
-
-```bash
-
-$ python pprint_json.py <path to file>
-# TODO add output example
-
+```python
+python json_parse.py C:\Users\root\7_mistery_fix\alco_shops.json
 ```
 
-# Project Goals
+# Как запустить
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
+
+Запуск на Linux:
+
+```bash
+python json_parse.py <path to file> # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+```
+Запуск на Windows происходит аналогично.
+
+# Цели проекта
+
+Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
