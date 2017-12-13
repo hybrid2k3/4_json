@@ -1,8 +1,8 @@
 import json
 import os
+import sys
 
-
-filename = input('Введите путь до файла')
+filename = sys.argv[1]
 if os.path.isfile(filename):
     with open(filename,encoding='utf-8'.format(filename)) as json_file:
         parsed = json.load(json_file)
