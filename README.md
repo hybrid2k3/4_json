@@ -27,6 +27,61 @@ pretty_print_json(load_data('<path to json file>')) # для Windows путь д
 
 `python C:\Users\root\json_parse.py C:\Users\root\alco_shops.json`
 
+На выходе имеем отформатированный JSON который удобно читать:
+```json
+           "properties": {
+                "Attributes": {
+                    "Address": "Мартеновская улица, дом 23",
+                    "AdmArea": "Восточный административный округ",
+                    "ClarificationOfWorkingHours": null,
+                    "District": "район Новогиреево",
+                    "IsNetObject": "нет",
+                    "Name": "МАГАЗИН «РОЗЛИВНОЕ ПИВО»",
+                    "OperatingCompany": null,
+                    "PublicPhone": [
+                        {
+                            "PublicPhone": "(929) 678-86-50"
+                        }
+                    ],
+                    "TypeService": "реализация продовольственных товаров",
+                    "WorkingHours": [
+                        {
+                            "DayOfWeek": "понедельник",
+                            "Hours": "11:00-23:00"
+                        },
+                        {
+                            "DayOfWeek": "вторник",
+                            "Hours": "11:00-23:00"
+                        },
+                        {
+                            "DayOfWeek": "среда",
+                            "Hours": "11:00-23:00"
+                        },
+                        {
+                            "DayOfWeek": "четверг",
+                            "Hours": "11:00-23:00"
+                        },
+                        {
+                            "DayOfWeek": "пятница",
+                            "Hours": "11:00-23:00"
+                        },
+                        {
+                            "DayOfWeek": "суббота",
+                            "Hours": "11:00-23:00"
+                        },
+                        {
+                            "DayOfWeek": "воскресенье",
+                            "Hours": "11:00-23:00"
+                        }
+                    ],
+                    "global_id": 25156878
+                },
+                "DatasetId": 1854,
+                "ReleaseNumber": 2,
+                "RowId": "9e3243be-5148-46e5-9139-1e9a93f00928",
+                "VersionNumber": 1
+```
+
 # Цели проекта
 
 Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
