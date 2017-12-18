@@ -3,7 +3,7 @@ import os
 import sys
 
 
-def load_data(filepath):
+def untreated_json_data(filepath):
     if os.path.isfile(filepath):
         with open(filepath, encoding='utf-8') as json_file:
             json_data = json.load(json_file)
@@ -16,5 +16,5 @@ def pretty_print_json(json_data):
 
 if __name__ == '__main__':
     filepath = sys.argv[1]
-    data_json = load_data(filepath)
+    data_json = untreated_json_data(filepath)
     pretty_print_json(data_json)
