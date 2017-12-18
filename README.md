@@ -23,6 +23,10 @@ pretty_print_json(load_data('<path to json file>')) # для Windows путь д
 ```
 Запуск на Windows происходит аналогично.
 
+Пример :
+
+`python C:\Users\root\json_parse.py C:\Users\root\alco_shops.json`
+
 # Цели проекта
 
 Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
